@@ -1,0 +1,107 @@
+body.no-sidebar .devhub-post .entry-header,
+body.no-sidebar .devhub-post .entry-content,
+body.no-sidebar .devhub-post .entry-footer {
+	max-width: none;
+}
+
+.devhub-post .summary,
+.devhub-post .description,
+.devhub-post .parameters,
+.devhub-post .return,
+.devhub-post .source-content,
+.devhub-post .changelog,
+.devhub-post .uses,
+.devhub-post .extends,
+.devhub-post .implements,
+.devhub-post .used-by,
+.devhub-post .extended-by,
+.devhub-post .implemented-by,
+.devhub-post .methods {
+	margin-bottom: 1rem;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.065);
+}
+
+.devhub-post .namespace + h1,
+.devhub-post .namespace + h2 {
+	padding-top: 0;
+}
+
+.devhub-post .namespace {
+	font-family: monospace;
+}
+
+.devhub-post .signature {
+	padding-left: 100px;
+	text-indent: -100px;
+	font-family: monospace;
+	color: #24831d;
+}
+
+.devhub-post .signature .arg-type {
+	font-style: italic;
+	color: #cd2f23;
+}
+
+.devhub-post .signature .arg-name {
+	color: #0f55c8;
+}
+
+.devhub-post .signature .arg-default {
+	color: #000;
+}
+
+.devhub-post .parameters .desc .type,
+.devhub-post .parameters .desc .required,
+.devhub-post .return .return-type {
+	font-style: italic;
+}
+
+.devhub-post .source-content .source-code-container {
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.devhub-post .source-content .show-complete-source,
+.devhub-post .source-content .less-complete-source {
+	display: none;
+}
+
+.devhub-post .changelog table {
+	border: 1px solid #f0f0f0;
+}
+
+.devhub-post .changelog table th {
+	padding: 0.75rem 1rem;
+	border-bottom: 1px solid #f0f0f0;
+	background-color: #f0f0f0;
+}
+
+.devhub-post .changelog table td {
+	padding: 0.75rem 1rem;
+	border: 2px solid #f0f0f0;
+}
+
+.devhub-post .changelog table .changelog-version {
+	width: 15%;
+}
+
+.devhub-post .sourcefile {
+	font-style: italic;
+	color: #999;
+}
+
+.devhub-post .devhub-content-wrap .devhub-content-sidebar {
+	display: none;
+	padding: 0.75rem 1rem;
+	width: 16rem;
+	margin: 0 0 1rem 1rem;
+	float: right;
+	background-color: rgba(0, 0, 0, 0.065);
+	min-height: 400px;
+}
+
+/*@media (min-width: 48rem) {
+	.devhub-post .devhub-content-wrap .devhub-content-sidebar {
+		display: block;
+	}
+}*/
