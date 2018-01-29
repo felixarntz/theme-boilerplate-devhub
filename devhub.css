@@ -37,6 +37,10 @@ body.no-sidebar .devhub-post .entry-footer {
 	color: #24831d;
 }
 
+.devhub-post .signature .hook-func {
+	color: #888;
+}
+
 .devhub-post .signature .arg-type {
 	font-style: italic;
 	color: #cd2f23;
